@@ -1,0 +1,13 @@
+
+<!DOCTYPE placaBase [
+<!ELEMENT placaBase (placa*)>
+<!ELEMENT placa (microprocesador, memoria+, modelo, fabricante)>
+<!ELEMENT microprocesador (#PCDATA)>
+<!ELEMENT memoria (#PCDATA)>
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT fabricante (Intel|Asus)>
+<!ELEMENT Intel EMPLY>
+<!ELEMENT Asus EMPLY>
+]>
+
+<!-- <!ELEMENT placa (microprocesador | memoria | modelo |fabricante)*> Esto sirve para poner  lo que hay dentro del parentesis de forma desordenada -->

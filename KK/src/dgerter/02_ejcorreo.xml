@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE emails SYSTEM "02_ejcorreo.dtd">
+<emails>
+	<email>
+	<para>mirian@gmail.com</para>
+	<cc>isa@gmail.com</cc>
+	<cco>pablo@gmail.com</cco>
+	<asunto>Hola, ¿qué tal?</asunto>
+	<cuerpo>Me alegro de escribirte...</cuerpo>
+	<adjunto>
+		<nombre>Nosotros_en_Málaga.jpg</nombre>
+		<mime-type>image/jpeg</mime-type>
+		<longitud>859KB</longitud>
+	
+	</adjunto>
+	</email>
+
+</emails>
+
